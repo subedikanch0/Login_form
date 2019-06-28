@@ -1,0 +1,118 @@
+
+html {
+    background: url(image/image4.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+.login {
+    width: 350px;
+    margin: 30px auto auto auto;
+
+    border: 1px #CCC solid;
+    padding: 0px 30px;
+    background-color: #3b6caf;
+    color: #FFF;
+
+}.login_s_q {
+    width: 450px;
+    margin: 30px auto auto auto;
+
+    border: 1px #CCC solid;
+    padding: 0px 30px;
+    background-color: #3b6caf;
+    color: #FFF;
+}
+.login_s_q a{
+    text-decoration: none;
+}
+.field {
+    background: #1e4f8a;
+    border: 1px #03306b solid;
+    padding: 10px;
+    /*margin: 5px 25px;*/
+    margin: 5px 3px 5px 25px;
+    width: 275px;
+    color: #FFF;
+}
+.required{
+color: #ff7970
+}
+.sfield {
+    background: #1e4f8a;
+    border: 1px #03306b solid;
+    padding: 10px;
+    margin: 5px 25px;
+    width: 300px;
+    color: #FFF;
+}
+.overflow{
+    overflow: hidden;
+}
+.login h1, p, .btn, .btn_rl {
+    margin: 15px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.btn {
+    background-color: #00CCFF;
+    border: 1px #03306b solid;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin: 25px 25px;
+    cursor: pointer;
+}
+.btn_rl {
+    background-color: #00CCFF;
+    border: 1px #03306b solid;
+    padding: 10px 30px;
+    font-weight: bold;
+    /*margin: 25px 25px;*/
+    cursor: pointer;
+}
+.switch {
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px 30px;
+}
+
+.forgot {
+    color: #fff;
+}
+
+.condition {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: justify;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.password_condition:hover .condition {
+    visibility: visible;
+}
+.captcha{
+    border: 1px #0f206e solid;
+    margin: 20px;
+    width: 175px;
+    background: #2075ba
+}
+.numbox1, .numbox2, .resultbox{
+    width: 12px;
+    height: 10px;
+    background: #1e4f8a;
+    border: 1px #03306b solid;
+    padding: 10px;
+    margin: 5px 5px;
+    color: #FFF;
+}
+
+.numbox2 {
+
+}
